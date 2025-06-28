@@ -2268,35 +2268,35 @@ input.form-control {
     height: 600px;
   }
 }
-.single-slide-item h1 {
+.single-slide-item h2 {
   color: #fff;
-  font-size: 100px;
+  font-size: 70px;
   font-weight: 600;
-  line-height: 105px;
+  line-height: 75px;
   letter-spacing: 2px;
   margin: 30px 0;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .single-slide-item h1 {
+  .single-slide-item h2 {
     font-size: 85px;
     line-height: 95px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .single-slide-item h1 {
+  .single-slide-item h2 {
     font-size: 75px;
     line-height: 85px;
   }
 }
 @media (max-width: 767px) {
-  .single-slide-item h1 {
+  .single-slide-item h2 {
     font-size: 40px;
     font-weight: 500;
     line-height: 45px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .single-slide-item h1 {
+  .single-slide-item h2 {
     font-size: 50px;
     line-height: 60px;
   }
@@ -2417,7 +2417,7 @@ input.form-control {
   display: none;
 }
 
-.slick-active .single-slide-item h1 {
+.slick-active .single-slide-item h2 {
   -webkit-animation-delay: 0.5s;
   animation-delay: 0.5s;
   -webkit-animation-duration: 0.5s;
@@ -2438,7 +2438,7 @@ input.form-control {
   animation-duration: 0.7s;
 }
 
-.slick-active .single-slide-item h1,
+.slick-active .single-slide-item h2,
 .slick-active .single-slide-item p,
 .slick-active .main-btn {
   -webkit-animation-name: fadeInUp;
@@ -2447,7 +2447,7 @@ input.form-control {
   animation-fill-mode: both;
 }
 
-.slick-active .single-slide-item h1 {
+.slick-active .single-slide-item h2 {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
   -webkit-animation-fill-mode: both;
