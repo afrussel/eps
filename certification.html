@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 
-    <title>Services - Express Parts Supply | Recycling, Repair & Resale Services</title>
+    <title>Certificate - Express Parts Supply | Recycling, Repair & Resale Services</title>
 
     <!--Favicon-->
     <link rel="icon" href="assets/img/favicon.png" type="image/jpg" >
@@ -108,8 +108,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcroumb-title text-center">
-                        <h1>Services</h1>
-                        <h6><a href="index.html">Home</a> / Services</h6>
+                        <h1>Certificate</h1>
+                        <h6><a href="index.html">Home</a> / Certificate</h6>
                     </div>
                 </div>
             </div>
@@ -121,68 +121,21 @@
     <div class="service-area section-padding pb-90">
         <div class="container">
             <div class="row">
-                <!-- Service Card 1: Recycling Services -->
+                <!-- Service Boxes with Popup -->
                 <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                     <div class="services-two_single">
                         <div class="services-two_img-box">
-                            <div class="services-two_img">
-                                <img src="assets/img/service/service_1.jpg" alt="Recycling Services">
-                            </div>
-                        </div>
-                        <div class="services-two_content">
-                            <h3 class="services-two_title"><a href="#">Recycling Services</a></h3>
-                            <p class="services-two_text">Dismantling and separating electronic waste materials such as batteries, plastic, PCBs, and metals.</p>
-                            <div class="services-two_bottom">
-                                <a href="#" class="services-one_btn">Read More</a>
-                                <a href="#" class="services-one_arrow">
-                                    <span class="icon-right-arrow"></span>
-                                </a>
-                            </div>
+                            <a href="assets/img/certificate/c1.jpg" class="image-popup">
+                                <div class="services-two_img">
+                                    <img src="assets/img/certificate/c1.jpg" alt="Certificate">
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Service Card 2: Rework & Repair -->
-                <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms">
-                    <div class="services-two_single">
-                        <div class="services-two_img-box">
-                            <div class="services-two_img">
-                                <img src="assets/img/service/service_2.jpg" alt="Recycling Services">
-                            </div>
-                        </div>
-                        <div class="services-two_content">
-                            <h3 class="services-two_title"><a href="#">Rework & Repair</a></h3>
-                            <p class="services-two_text">Professional repair and rework of CPUs, GPUs, module kits, connectors, and electronic boards.</p>
-                            <div class="services-two_bottom">
-                                <a href="#" class="services-one_btn">Read More</a>
-                                <a href="#" class="services-one_arrow">
-                                    <span class="icon-right-arrow"></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- Service Card 3: Electronic Component Supply -->
-                <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
-                    <div class="services-two_single">
-                        <div class="services-two_img-box">
-                            <div class="services-two_img">
-                                <img src="assets/img/service/service_3.jpg" alt="Recycling Services">
-                            </div>
-                        </div>
-                        <div class="services-two_content">
-                            <h3 class="services-two_title"><a href="#">Electronic Component Supply</a></h3>
-                            <p class="services-two_text">Supplying CPUs, GPUs, connectors, touch panels, and other refurbished or tested electronic parts.</p>
-                            <div class="services-two_bottom">
-                                <a href="#" class="services-one_btn">Read More</a>
-                                <a href="#" class="services-one_arrow">
-                                    <span class="icon-right-arrow"></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>
@@ -280,6 +233,18 @@
     <script src="assets/js/jquery.barfiller.js"></script>
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('.image-popup').magnificPopup({
+                type: 'image',
+                gallery: {
+                    enabled: true
+                }
+            });
+        });
+    </script>
+
 
 </body>
 
