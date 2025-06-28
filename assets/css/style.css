@@ -7025,11 +7025,27 @@ ul.contact-list li i {
   text-decoration: underline;
 }
 
+.contact-section.section-padding {
+  padding: 120px 0 40px;
+}
+
+.contact-section ul.list-unstyled {
+  line-height: 30px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.contact-section textarea {
+  height: 200px;
+}
+
 .contact-page-google-map {
   position: relative;
   display: block;
-  padding: 120px 0 0;
+  padding: 30px 0;
 }
+
+
 @media (max-width: 767px) {
   .contact-page-google-map {
     padding: 60px 0 0;
